@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    background-color: blue;
+    height: 150px;
+    margin: 0%;
+    padding: 10px;
+    font-size: 20px;
+}
+.header img{
+    float: left;
+   width: 200px;
+   height: 100px;
+
+}
+.page{
+    background-color: palegreen;
+list-style-type:none;
+margin:0;
+padding:0px;
+overflow:hidden;
+position: relative;
+
+}
+.page li{
+    float: left;
+    margin: 20px;
+    display: block; 
+    
+}
+.page li a{
+    display:block;
+text-decoration: none;
+font-size:20px;  
+text-align: center;  
+padding: 10px 20px; 
+    color: black;
+    border-radius: 10px;
+    
+}
+.page a:hover{
+    background-color: orange;
+}
+.page1{
+    background-color: purple;
+list-style-type:none;
+margin:0;
+padding:0px;
+overflow:hidden;
+position: relative;
+
+}
+.page1 li{
+    float: left;
+    margin: 20px;
+    display: block; 
+    
+}
+.page1 li a{
+    display:block;
+text-decoration: none;
+font-size:20px;  
+text-align: center;  
+padding: 10px 20px; 
+    color: white;
+    border-radius: 10px;
+    
+}
+.page1 a:hover{
+    background-color: orange;
+}
+.content{
+    background-color: lavender;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    overflow: hidden;
+}
+.form{
+background-color: lavender;
+width: 370px;
+height: 870px;
+float: left;
+}
+.main{
+    background-color: white;
+    width:470px;
+    height: 870px;
+    float:left;
+}.main img{
+    float: left;
+    width:235px;
+   height:200px;
+   padding:5px;
+   }
+   .main img{
+       float: left;
+       width:235px;
+   height:200px;
+   padding:5px;
+      }
+   .table{
+    background-color: lavenderblush;
+    clear: right;
+    float: left;
+    border-collapse: collapse;
+    width:509px;
+    height: 870px;
+    padding: 0%;    
+   }
+tr:hover{
+    background-color: white;
+   }
+   .footer{
+    background-color: blue;
+    text-align: center;
+    height: 220px;
+    margin: 0%;
+    padding: 10px;
+   }
+   .header{
+    background-color: blue;
+   }
+
